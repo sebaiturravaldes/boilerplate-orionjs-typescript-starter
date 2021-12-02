@@ -1,5 +1,5 @@
-import {modelResolver, resolver} from '@orion-js/resolvers'
-import {getModelForClass, Prop, TypedModel} from '@orion-js/typed-model'
+import {modelResolver} from '@orion-js/resolvers'
+import {Prop, TypedModel} from '@orion-js/typed-model'
 import Counter from '..'
 
 @TypedModel()

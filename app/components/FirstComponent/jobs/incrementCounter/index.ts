@@ -1,5 +1,5 @@
 import {job} from '@orion-js/jobs'
-import Counters from '../collections/Counters'
+import Counters from 'app/components/FirstComponent/collections/Counters'
 
 export default job({
   type: 'recurrent',
