@@ -1,4 +1,4 @@
-# Orionjs typescript-started
+# Orionjs typescript-starter
 
 ## Requirements
 
@@ -23,6 +23,8 @@ yarn install
 ```cli
 sh start.sh
 ```
+
+Open your browser and navigate to [http://localhost:3000/](http://localhost:3000/)
 
 ## Build
 

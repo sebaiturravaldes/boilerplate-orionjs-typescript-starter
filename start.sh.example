@@ -1,5 +1,5 @@
 # Add local env vars to this file
 export PORT=3000
-export MONGO_URL=mongodb://localhost:3003/typescript-started
+export MONGO_URL=mongodb://localhost:3003/typescript-starter
 
 yarn dev
