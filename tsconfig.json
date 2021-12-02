@@ -1,5 +1,14 @@
 {
   "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2020",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "jsx": "react",
+    "lib": [
+      "es2020"
+    ],
+    "skipLibCheck": true,
     "strict": false,
     "declaration": true,
     "removeComments": true,

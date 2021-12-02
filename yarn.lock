@@ -244,7 +244,7 @@
     "@orion-js/resolvers" "^3.0.24"
     "@orion-js/schema" "^3.0.17"
 
-"@orion-js/mongodb@^3.0.24":
+"@orion-js/mongodb@^3.0.0", "@orion-js/mongodb@^3.0.24":
   version "3.0.24"
   resolved "https://registry.yarnpkg.com/@orion-js/mongodb/-/mongodb-3.0.24.tgz#22ccc6afbb0001ca4b8e76a88f372c4da33ac5e5"
   integrity sha512-n2QJ8MZV1s+zlI7up+gmUplf1kXxhDUcE+13fD6RtFKAM9LIJxFcDPH+Zx2fYFwxeiPTcvIVzv6P3TkU6vhDcQ==
@@ -1307,6 +1307,11 @@ graphql-tag@^2.11.0:
   integrity sha512-FdSNcu2QQcWnM2VNvSCCDCVS5PpPqpzgFT8+GXzqJuoDd0CBncxCY278u4mhRO7tMgo2JjgJA5aZ+nWSQ/Z+xg==
   dependencies:
     tslib "^2.1.0"
+
+graphql@^16.0.1:
+  version "16.0.1"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.0.1.tgz#93a13cd4e0e38ca8d0832e79614c8578bfd34f10"
+  integrity sha512-oPvCuu6dlLdiz8gZupJ47o1clgb72r1u8NDBcQYjcV6G/iEdmE11B1bBlkhXRvV0LisP/SXRFP7tT6AgaTjpzg==
 
 has-bigints@^1.0.1:
   version "1.0.1"

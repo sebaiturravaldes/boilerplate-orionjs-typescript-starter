@@ -1,5 +1,5 @@
-import AComponent from './AComponent/resolvers'
+import FirstComponent from './FirstComponent/resolvers'
 
 export default {
-  ...AComponent
+  ...FirstComponent
 }

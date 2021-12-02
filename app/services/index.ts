@@ -1,4 +1,3 @@
-import './mongodb'
 import './config'
 import './http'
 import './graphql'

@@ -1,5 +1,5 @@
-import AComponent from './AComponent/http'
+import FirstComponent from './FirstComponent/http'
 
 export default {
-  ...AComponent
+  ...FirstComponent
 }

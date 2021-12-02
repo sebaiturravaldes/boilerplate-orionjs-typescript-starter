@@ -15,11 +15,12 @@
     "@orion-js/http": "3.0.24",
     "@orion-js/jobs": "^3.0.24",
     "@orion-js/models": "^3.0.24",
-    "@orion-js/mongodb": "^3.0.24",
+    "@orion-js/mongodb": "^3.0.0",
     "@orion-js/resolvers": "3.0.24",
     "@orion-js/schema": "3.0.17",
     "@orion-js/typed-model": "^3.0.24",
     "cors": "^2.8.5",
+    "graphql": "^16.0.1",
     "lodash": "^4.17.21"
   },
   "engines": {

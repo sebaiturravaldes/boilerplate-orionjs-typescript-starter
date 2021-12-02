@@ -1,5 +1,5 @@
-import AComponent from './AComponent/jobs'
+import FirstComponent from './FirstComponent/jobs'
 
 export default {
-  ...AComponent
+  ...FirstComponent
 }

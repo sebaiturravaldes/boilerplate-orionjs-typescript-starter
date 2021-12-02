@@ -1,5 +1,5 @@
 import {route} from '@orion-js/http'
-import Counters from 'app/components/AComponent/collections/Counters'
+import Counters from 'app/components/FirstComponent/collections/Counters'
 import getCounter from 'app/helpers/misc/getCounter'
 
 export default route({
