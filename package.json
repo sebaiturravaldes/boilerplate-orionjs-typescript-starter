@@ -1,0 +1,38 @@
+{
+  "name": "typescript-started",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "orion start",
+    "build": "orion build",
+    "start:prod": "node build/index.js"
+  },
+  "dependencies": {
+    "@orion-js/cache": "3.0.17",
+    "@orion-js/graphql": "^3.0.24",
+    "@orion-js/helpers": "3.0.17",
+    "@orion-js/http": "3.0.24",
+    "@orion-js/jobs": "^3.0.24",
+    "@orion-js/models": "^3.0.24",
+    "@orion-js/mongodb": "^3.0.24",
+    "@orion-js/resolvers": "3.0.24",
+    "@orion-js/schema": "3.0.17",
+    "@orion-js/typed-model": "^3.0.24",
+    "cors": "^2.8.5",
+    "lodash": "^4.17.21"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "@orion-js/core": "3.0.19",
+    "@types/cors": "2.8.12",
+    "eslint": "^6.8.0",
+    "eslint-config-orionsoft": "^2.1.2",
+    "eslint-plugin-react": "^7.20.5",
+    "eslint-plugin-react-hooks": "^4.0.8",
+    "eslint-plugin-react-native": "^3.8.1",
+    "typescript": "^4.4.4"
+  }
+}
