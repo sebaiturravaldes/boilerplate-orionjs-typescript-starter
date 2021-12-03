@@ -258,6 +258,15 @@
     dot-object "2.1.4"
     mongodb "4.1.4"
 
+"@orion-js/paginated-mongodb@^3.0.24":
+  version "3.0.24"
+  resolved "https://registry.yarnpkg.com/@orion-js/paginated-mongodb/-/paginated-mongodb-3.0.24.tgz#334e200b55b246c3e07036996a31bc98a73e8150"
+  integrity sha512-WTbEmDMpjonuArtuZpV4JiicCGNVvCITsRR/XaaWy5g93ixUvrDuMr4EfeyLbOIbd6GWwt9SJ2fcQlxLeFJRXQ==
+  dependencies:
+    "@orion-js/models" "^3.0.24"
+    "@orion-js/mongodb" "^3.0.24"
+    "@orion-js/resolvers" "^3.0.24"
+
 "@orion-js/resolvers@3.0.24", "@orion-js/resolvers@^3.0.24":
   version "3.0.24"
   resolved "https://registry.yarnpkg.com/@orion-js/resolvers/-/resolvers-3.0.24.tgz#8f2ea592a3f0b4a7a9f6ac654ff472038a4e44ff"

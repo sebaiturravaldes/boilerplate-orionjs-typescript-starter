@@ -16,6 +16,7 @@
     "@orion-js/jobs": "^3.0.24",
     "@orion-js/models": "^3.0.24",
     "@orion-js/mongodb": "^3.0.0",
+    "@orion-js/paginated-mongodb": "^3.0.24",
     "@orion-js/resolvers": "3.0.24",
     "@orion-js/schema": "3.0.17",
     "@orion-js/typed-model": "^3.0.24",
