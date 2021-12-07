@@ -1,11 +1,11 @@
-import {paginatedResolver} from '@orion-js/paginated-mongodb'
+import {resolver} from '@orion-js/resolvers'
 import Counter from 'app/components/FirstComponent/models/Counter'
 import Counters from 'app/components/FirstComponent/collections/Counters'
 
-export default paginatedResolver({
+export default resolver({
   params: {},
   returns: Counter,
-  async getCursor(params, viewer) {
-    return await Counters.find(params)
+  async resolve(params, viewer) {
+    return Counters.findOne({})
   }
 })

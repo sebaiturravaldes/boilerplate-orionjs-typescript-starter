@@ -1,5 +1,5 @@
 import {createCollection} from '@orion-js/mongodb'
-import Counter from 'app/components/FirstComponent/models/Counter'
+import {Counter} from 'app/components/FirstComponent/models/Counter'
 
 export default createCollection<Counter>({
   name: 'test.counters',

@@ -1,8 +1,8 @@
-import {Prop, ResolverProp, TypedModel} from '@orion-js/typed-model'
+import {getModelForClass, Prop, ResolverProp, TypedModel} from '@orion-js/typed-model'
 import prettyText from './prettyText'
 
 @TypedModel()
-export default class Counter {
+export class Counter {
   /**
    * The name of the counter
    */
@@ -21,3 +21,5 @@ export default class Counter {
   @ResolverProp(prettyText)
   prettyText: typeof prettyText.modelResolve
 }
+
+export default getModelForClass(Counter)

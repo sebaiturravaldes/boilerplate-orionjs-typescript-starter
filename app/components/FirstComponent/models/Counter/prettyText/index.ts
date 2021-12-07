@@ -1,6 +1,6 @@
 import {modelResolver} from '@orion-js/resolvers'
 import {Prop, TypedModel} from '@orion-js/typed-model'
-import Counter from '..'
+import {Counter} from '..'
 
 @TypedModel()
 class Params {
