@@ -9,17 +9,17 @@
     "start:prod": "node build/index.js"
   },
   "dependencies": {
-    "@orion-js/cache": "3.0.17",
-    "@orion-js/graphql": "^3.0.28",
-    "@orion-js/helpers": "3.0.17",
-    "@orion-js/http": "3.0.24",
-    "@orion-js/jobs": "^3.0.28",
-    "@orion-js/models": "^3.0.28",
-    "@orion-js/mongodb": "^3.0.0",
-    "@orion-js/paginated-mongodb": "^3.0.28",
-    "@orion-js/resolvers": "3.0.24",
-    "@orion-js/schema": "3.0.17",
-    "@orion-js/typed-model": "^3.0.28",
+    "@orion-js/cache": "3.1.1",
+    "@orion-js/graphql": "^3.1.1",
+    "@orion-js/helpers": "3.1.1",
+    "@orion-js/http": "3.1.1",
+    "@orion-js/jobs": "^3.0.45",
+    "@orion-js/models": "^3.1.1",
+    "@orion-js/mongodb": "^3.1.1",
+    "@orion-js/paginated-mongodb": "^3.1.1",
+    "@orion-js/resolvers": "3.1.1",
+    "@orion-js/schema": "3.1.1",
+    "@orion-js/typed-model": "^3.1.1",
     "cors": "^2.8.5",
     "graphql": "^16.0.1",
     "lodash": "^4.17.21"
@@ -28,7 +28,7 @@
     "node": ">=14.0.0"
   },
   "devDependencies": {
-    "@orion-js/core": "3.0.19",
+    "@orion-js/core": "3.1.1",
     "@types/cors": "2.8.12",
     "eslint": "^6.8.0",
     "eslint-config-orionsoft": "^2.1.2",
