@@ -2,4 +2,4 @@
 export PORT=3000
 export MONGO_URL=mongodb://localhost:3003/typescript-starter
 
-yarn dev
+orion start
