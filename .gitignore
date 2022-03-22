@@ -17,3 +17,5 @@ proxy.sh
 /.idea/
 coverage
 dist
+
+.env
