@@ -6,10 +6,10 @@ Node >= 14 (LTS)
 
 ## Environment Variables
 
-copy `start.sh.example` file to `start.sh` with command:
+copy `.env.example` file to `.env` with command:
 
 ```
-cp start.sh.example start.sh
+cp .env.example .env
 ```
 
 ## Install
@@ -21,7 +21,7 @@ yarn install
 ## Run develop
 
 ```cli
-sh start.sh
+yarn dev
 ```
 
 Open your browser and navigate to [http://localhost:3000/](http://localhost:3000/)
